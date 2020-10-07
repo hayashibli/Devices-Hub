@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devices</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>My Devices</h1>
+    <div id="container">
+        <form action="" id="deviceForm">
+            <fieldset>
+                <div>
+                    <label for="itemName" id="first">Item Name</label>
+                    <br>
+                    <input type="text" id="itemName">
+                </div>
+                <div>
+                    <label for="category">Category</label>
+                    <br>
+                    <select name="category" id="category">
+                        
+                        <option value="Mobile">Mobile</option>
+                        <option value="Laptop">Laptop</option>
+                        <option value="Tablet">Tablet</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="quantity">Quantity</label>
+                    <br>
+                    <input type="number" id="quantity">
+                </div>
+                <input type="submit" value="Submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+    <div id="tableDiv">
+    <table id="deviceTable"></table>
+   </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
